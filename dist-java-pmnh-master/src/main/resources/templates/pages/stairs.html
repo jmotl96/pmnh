@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Glacier Facts</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+    <div th:insert="fragments/_header :: header"></div>
+    <h2>How to fall off stairs</h2>
+    <ol>
+        <li>step one </li><br>
+        <li>step two</li><br>
+        <li>step three</li><br>
+        <li>step six</li><br>
+        <li>step eleven</li><br>
+        <li>Step sixteen</li><br>
+        <li>Floor</li><br>
+    </ol><br>
+    <video th:src="@{/img/fall.mp4}" type="video/mp4"></video>
+
+
+
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>
